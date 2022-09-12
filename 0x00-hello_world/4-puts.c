@@ -5,8 +5,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(int argc, char* argv[])
 {  
-  char str[] ="Programming is like building a multilingual puzzle"
+  char str[] ="Programming is like building a multilingual puzzle";
     return (0);
 }
