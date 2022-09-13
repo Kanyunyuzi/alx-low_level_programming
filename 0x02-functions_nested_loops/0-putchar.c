@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include <main.h>
 /* A program that prints putchar
- * Return (); Success
+ * Main - Entry point
+ * Return: Always 0 (Success)
 */
 
 main(void)
