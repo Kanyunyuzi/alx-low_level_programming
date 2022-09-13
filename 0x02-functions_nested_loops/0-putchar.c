@@ -3,7 +3,7 @@
 #include <time.h>
 #include <main.h>
 
-int main(void)
+main(void)
 {
   char a []="_putchar";
   printf("%s", a);
