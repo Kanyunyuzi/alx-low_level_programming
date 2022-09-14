@@ -1,5 +1,5 @@
-#include <stdio.h>
-/**A program athat prints the alphabet in lowercase
+#include "main.h"
+/**A program that prints the alphabet in lowercase
  *main - Entry point
  *
  *Return: Always 0
