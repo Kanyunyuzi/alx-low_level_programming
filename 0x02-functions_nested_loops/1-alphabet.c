@@ -1,5 +1,8 @@
 #include "main.h"
-/**A program that prints the alphabet in lowercase
+/*
+ *FIle name: 1-alphabet.c
+ *Author: Kanyunyuzi Sunitah
+ *A program that prints the alphabet in lowercase
  *main - Entry point
  *
  *Return: Always 0
