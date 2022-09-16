@@ -1,12 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+<<<<<<< HEAD
+ *AUTHOR-KANYUNYUZI SUNITAH
+ *DATE - 16th September
  *
- * Return: Always 0 (Success)
+ * Using puts to print
+ *
+ *Return (0) Success
  */
-int main(int argc, char* argv[])
-{  
-  char str[] ="Programming is like building a multilingual puzzle";
-    return (0);
+
+int main (void)
+{
+  
+char *s = "Programming is like building a multilingual puzzle";
+puts(s);
+ 
+return (0);
+ 
 }
