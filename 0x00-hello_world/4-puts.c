@@ -18,14 +18,4 @@ puts(s);
  
 return (0);
  
-=======
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(int argc, char* argv[])
-{  
-  char str[] ="Programming is like building a multilingual puzzle";
-    return (0);
->>>>>>> 2070de653a81c01416782169a5ce0d5477016ae4
 }
