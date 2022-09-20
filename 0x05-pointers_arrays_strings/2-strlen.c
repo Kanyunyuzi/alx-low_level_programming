@@ -6,13 +6,15 @@
  *File name : 2-strlen.c
  *Description : Write a function that returns the length of a string.
  */
-int _strlen(char *s);
+
+int _strlen(char *s)
 {
-  char arr = "My first strlen!";
-  *s = &_strlen;
-  size_t strlen ("My first strlen!", char *s);
-  printf("%zu\n", _strlen);
+	int count = 0;
 
-  return (0);
+	while (*s++)
+	{
+		count++;
+	}
 
-}
+	return (count);
+}  
