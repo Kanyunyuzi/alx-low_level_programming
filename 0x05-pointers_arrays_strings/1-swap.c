@@ -7,28 +7,12 @@
  *Return : always (0)
  */
 
-int main(void)
+void swap_int(int *a, int *b)
 {
-  int a;
-  int b;
-  a = 98;
-  b = 42;
-  printf("%d\n", a, b);
-  return (0);
+  int c;
 
-}
-
-/**swapping
- */
-void swap_int(int *a, int *b);
-{
-
-a = &a;
-b = &b;
-*a = 42;
-*b = 98;
-
-printf{"%d\n", a, b);
-return (0);
+c = *a;
+*a = *b;
+*b = c;
 
 }
