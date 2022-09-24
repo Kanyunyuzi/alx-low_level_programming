@@ -1,4 +1,3 @@
-#include "main.h"
 /*
  *FIle name: 1-alphabet.c
  *Author: Kanyunyuzi Sunitah
@@ -7,18 +6,21 @@
  *
  *Return: Always 0
  */
-int main (void)
-{
-  char c = 'a';
-  while (c <= 'z')
-     {
-      putchar (c);
-      c++;
-      printf("\n");
-      
+#include "main.h"
 
-    }
-  
-   return 0;
+/**
+ * print_alphabet - print the alphabet in lowercase followed by a new line
+ * Return 0
+ */
+
+void print_alphabet(void)
+{
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
-     
+    
